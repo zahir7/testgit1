@@ -22,7 +22,6 @@
 
 	<target name="init" depends="clean">
 		<mkdir dir="${project.classes.dir}" />
-
 		<copy includeemptydirs="false" todir="${project.classes.dir}">
 			<fileset dir="src">
 				<exclude name="**/*.java" />
